@@ -1,8 +1,9 @@
 .root {
   padding: 1rem;
-  border: 1px solid #8561c5;
+  border: 1px solid #b6b6b6;
   flex: 1;
   min-width: 250px;
+  position: relative;
 }
 
 $size: 50px;
@@ -21,9 +22,10 @@ $size: 50px;
 
 .who {
   clear: both;
-  font-size: 0.5rem;
-  float: right;
+  font-size: 0.75rem;
   font-style: italic;
-  color: #6d1b7b;
-  margin-top: 0.5rem;
+  color: #3c3c3c;
+  position: absolute;
+  bottom: 0.25rem;
+  right: 0.25rem;
 }
