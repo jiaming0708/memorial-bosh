@@ -18,9 +18,9 @@ function App() {
   const [{ data: rows }] = data;
 
   return (
-    <>
+    <div className='App'>
       {rows.map((p: any) => <Card {...p} key={p.time} />)}
-    </>
+    </div>
   );
 }
 
