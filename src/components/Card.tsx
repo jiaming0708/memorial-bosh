@@ -5,11 +5,13 @@ import logo from '../images/logo.png';
 function Card({ who, words }: RowData) {
   return (
     <div className={styles.root}>
-      <p className={styles.words}>
+      <div className={styles.header}>
         <img className={styles.image} src={logo} alt="logo" />
+        <span className={styles.who}>{who}</span>
+      </div>
+      <p className={styles.words}>
         {words}
       </p>
-      <span className={styles.who}>{who}</span>
     </div>
   );
 }
