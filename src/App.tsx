@@ -1,6 +1,6 @@
 import useGoogleSheets from 'use-google-sheets';
 
-import './App.scss';
+import styles from './App.module.scss';
 import { ReactComponent as OvalIcon } from './images/oval.svg';
 import Card from './components/Card';
 
@@ -22,9 +22,18 @@ function App() {
   const [{ data: rows }] = data;
 
   return (
-    <div className='App'>
-      {rows.map((p: any) => <Card {...p} key={p.time} />)}
-    </div>
+    <>
+      <p className={styles.link}>
+        這個網站主要是收集大家想要給他的留言，最後會直接列印這個網頁的內容燒給他
+        <br />
+        想要留言的朋友，<a href='https://forms.gle/teskkpCydZTtEyrV8'>這邊請</a>，輸入資料後重新整理頁面就可以看到囉!
+        <br />
+        另外也在收集照片，歡迎上傳到<a href='https://1drv.ms/u/s!AqjEDlfQUUuihl6RVjvXVSdAeuBs?e=ixPT2m'>one drive</a>(要登入才能使用喔!)
+      </p>
+      <div className={styles.container}>
+        {rows.map((p: any) => <Card {...p} key={p.time} />)}
+      </div>
+    </>
   );
 }
 
