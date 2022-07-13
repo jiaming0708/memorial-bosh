@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/memorial-bosh/static/css/main.094eb71d.css",
-    "main.js": "/memorial-bosh/static/js/main.4732c88c.js",
+    "main.js": "/memorial-bosh/static/js/main.cb31f0c6.js",
     "static/js/787.1292a887.chunk.js": "/memorial-bosh/static/js/787.1292a887.chunk.js",
     "static/media/logo.png": "/memorial-bosh/static/media/logo.dfa9093158ea2ca72217.png",
     "index.html": "/memorial-bosh/index.html",
     "static/media/oval.svg": "/memorial-bosh/static/media/oval.3b24a6b94b2631f4d565d76f4f7f18d6.svg",
     "main.094eb71d.css.map": "/memorial-bosh/static/css/main.094eb71d.css.map",
-    "main.4732c88c.js.map": "/memorial-bosh/static/js/main.4732c88c.js.map",
+    "main.cb31f0c6.js.map": "/memorial-bosh/static/js/main.cb31f0c6.js.map",
     "787.1292a887.chunk.js.map": "/memorial-bosh/static/js/787.1292a887.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.094eb71d.css",
-    "static/js/main.4732c88c.js"
+    "static/js/main.cb31f0c6.js"
   ]
 }
